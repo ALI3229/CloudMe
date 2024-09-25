@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>CloudME - Cloud Solutions</title>
+  <meta name="description" content="CloudME offers state-of-the-art cloud services.">
+  <meta name="keywords" content="cloud hosting, cloud services, cloud computing, CloudME">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/cloudlogo.jpg" rel="cloudlogo">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* Custom CSS for styling the services and team sections */
+    .features-item, .member {
+      background-color: #f8f9fa; /* Light background for cards */
+      border: 1px solid #dee2e6; /* Light border */
+      border-radius: 10px; /* Rounded corners */
+      padding: 20px; /* Inner padding */
+      text-align: center; /* Center text */
+      transition: transform 0.3s; /* Smooth hover effect */
+    }
+
+    .features-item:hover, .member:hover {
+      transform: scale(1.05); /* Scale effect on hover */
+    }
+
+    .member .pic img {
+      border-radius: 50%; /* Round image */
+      width: 120px; /* Fixed width for images */
+      height: 120px; /* Fixed height for images */
+    }
+
+    /* Centering the display image */
+    .img-display {
+      width: 100%; /* Full width */
+      max-width: 600px; /* Max width */
+      margin: 0 auto; /* Centering */
+      display: block; /* Block display */
+      border-radius: 10px; /* Rounded corners */
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/cloudlogo.jpg" alt="CloudME Logo" width="50px">
+        <h1 class="sitename">CloudME</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg">
+      <div class="container">
+        <div class="row gy-4 justify-content-between">
+          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/random-image.png" class="img-fluid animated" alt="Random Image">
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-in">
+            <h1>Empower Your Business with <span>CloudME</span></h1>
+            <p>CloudME provides cutting-edge cloud solutions for modern businesses.</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up">
+        <h2>About CloudME</h2>
+        <p>CloudME offers scalable and reliable cloud services tailored to meet the growing demands of modern businesses.</p>
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Services Section -->
+    <section id="features" class="features section">
+      <div class="container">
+        <h2>Our Cloud Services</h2>
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="features-item">
+              <i class="bi bi-cloud" style="color: #ffbb2c;"></i>
+              <h3><a href="#" class="stretched-link">Cloud Hosting</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="features-item">
+              <i class="bi bi-server" style="color: #5578ff;"></i>
+              <h3><a href="#" class="stretched-link">Cloud Storage</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="features-item">
+              <i class="bi bi-shield-lock" style="color: #e80368;"></i>
+              <h3><a href="#" class="stretched-link">Cloud Security</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="features-item">
+              <i class="bi bi-speedometer" style="color: #47aeff;"></i>
+              <h3><a href="#" class="stretched-link">Performance Optimization</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Services Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+      <div class="container">
+        <h2>Meet Our Team</h2>
+        <div class="row gy-5">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt="Team Member 1"></div>
+              <div class="member-info">
+                <h4>Ali Asghar</h4>
+                <span>Chief Executive Officer</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt="Team Member 2"></div>
+              <div class="member-info">
+                <h4>Tahreem Aish</h4>
+                <span>Product Manager</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt="Team Member 3"></div>
+              <div class="member-info">
+                <h4>Faizan Jalil</h4>
+                <span>CTO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Team Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info">
+              <p><strong>Address:</strong> A108 Cloud Street Gulgasht Colony Multan</p>
+              <p><strong>Email:</strong> info@cloudme.com</p>
+              <p><strong>Phone:</strong>+92 3236204564</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form action="">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="credits">
+        &copy; 2024 <strong><span>CloudME</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 1000, // Animation duration
+    });
+  </script>
+</body>
+
+</html>
